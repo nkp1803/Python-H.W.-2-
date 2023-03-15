@@ -7,7 +7,8 @@ from random import randint
 n = int(input("Введите число монет: "))
 counter1 = 0
 for _ in range(n) :
-    number = randint(-50 , 50)
+    number = randint(-1 , 1)
+    # отрицательные это решка, 0 и положительные герб
     print (number)
     if number < 0 :
         counter1 += 1
