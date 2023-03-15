@@ -3,14 +3,14 @@
 # число монеток, которые нужно перевернуть, чтобы все монетки 
 # были повернуты вверх одной и той же стороной. 
 # Выведите минимальное количество монет, которые нужно перевернуть
-from random import randint
+#from random import randint
 n = int(input("Введите число монет: "))
 counter1 = 0
 for _ in range(n) :
-    number = randint(-1 , 1)
+    number = number = int(input("Введите число 0 или 1 : "))
     # отрицательные это решка, 0 и положительные герб
     print (number)
-    if number < 0 :
+    if number == 0 :
         counter1 += 1
     
 print (f'Наименьшее кол-во монет = {counter1}')
