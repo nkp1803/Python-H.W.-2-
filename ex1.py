@@ -7,8 +7,7 @@
 n = int(input("Введите число монет: "))
 counter1 = 0
 for _ in range(n) :
-    number = number = int(input("Введите число 0 или 1 : "))
-    # отрицательные это решка, 0 и положительные герб
+    number = int(input("Введите число 0 или 1 : "))
     print (number)
     if number == 0 :
         counter1 += 1
